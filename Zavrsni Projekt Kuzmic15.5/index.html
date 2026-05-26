@@ -5,31 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Početna</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-       
-        body {
-            background-color: #121212 !important;
-            color: #e0e0e0 !important;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        
-       
-        section {
-            background-color: #121212 !important;
-            padding: 50px 20px;
-        }
-
-       
-        .card, .home-box, .series-card {
-            background-color: #1a1a1a !important;
-            border: 1px solid #333 !important;
-            color: #e0e0e0 !important;
-        }
-    </style>
 </head>
 
-<body>
+<body class="dark-theme">
 
 <nav>
     <ul>
@@ -47,26 +25,23 @@
         <p>
             YouTube kreator poznat po NBA reakcijama, gaming sadržaju i viralnim momentima koji su oblikovali modernu internet kulturu.
         </p>
-     <a href="#highlights" class="explore-btn">
-    Istraži sadržaj
-</a>
-
+        <a href="#highlights" class="explore-btn">Istraži sadržaj</a>
     </div>
 </section>
 
 <section class="highlights" id="highlights">
     <div class="card">
-        <img src="img/index1.jpg">
+        <img src="img/index1.jpg" alt="NBA reakcija">
         <h2 style="color: #ff4d4d;">NBA reakcije</h2>
         <p>Njegove reakcije na NBA utakmice postale su globalno popularne i viralne.</p>
     </div>
     <div class="card">
-        <img src="img/index2.jpg">
+        <img src="img/index2.jpg" alt="Gaming">
         <h2 style="color: #ff4d4d;">Gaming sadržaj</h2>
         <p>Objavljuje gameplay videe i streamove koji privlače milijune gledatelja.</p>
     </div>
     <div class="card">
-        <img src="img/index3.jpg">
+        <img src="img/index3.jpg" alt="Kultura">
         <h2 style="color: #ff4d4d;">Internet kultura</h2>
         <p>Postao je dio meme kulture i moderne YouTube scene.</p>
     </div>
@@ -105,9 +80,27 @@
     </div>
 </section>
 
-<section class="footer-cta" style="padding: 40px; text-align: center; color: #ffffff;">
+<section class="cta" style="padding: 50px 20px; text-align: center;">
+    <h2 style="color: #ff4d4d;">Saznaj više o njemu</h2>
+    <p style="color: #e0e0e0; margin-bottom: 20px;">
+        Doznaj sve o njemu u biografiji.
+    </p>
+    <a href="about.html" style="background-color: #ff4d4d; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">Saznaj o njemu</a>
+</section>
 
- <div class="ad-wrapper">
+<section class="footer-cta" style="background-color: #1a1a1a; padding: 40px; text-align: center; color: #ffffff;">
+    <h2 style="color: #ffffff;">Prati FlightReacts na društvenim mrežama</h2>
+    <p style="color: #cccccc;">Ne propusti nijedan video! Klikni na linkove ispod i pridruži se zajednici.</p>
+    
+    <div class="social-links" style="margin-top: 20px; margin-bottom: 30px;">
+        <a href="https://www.youtube.com/@NotYourAverageFlight" style="margin: 0 15px; text-decoration: none; color: #ff4d4d; font-weight: bold; font-size: 1.1em;">YouTube</a> |
+        <a href="https://x.com/Flight23White" style="margin: 0 15px; text-decoration: none; color: #ff4d4d; font-weight: bold; font-size: 1.1em;">X</a> |
+        <a href="https://www.instagram.com/flight23white_/?hl=en" style="margin: 0 15px; text-decoration: none; color: #ff4d4d; font-weight: bold; font-size: 1.1em;">Instagram</a>
+    </div>
+    
+    <p style="margin-top: 30px; font-size: 0.8em; color: #666;">FlightReacts Biography</p>
+
+    <div class="ad-wrapper">
         <input type="checkbox" id="hide-ad" class="hidden-checkbox">
         <div class="floating-ad">
             <label for="hide-ad" class="close-btn">X</label>
@@ -119,7 +112,6 @@
 
     <div class="cookie-wrapper">
         <input type="checkbox" id="hide-cookie" class="hidden-checkbox">
-        
         <div class="cookie-banner">
             <p>Ova stranica koristi kolačiće za bolje iskustvo. Prihvaćaš li ih?</p>
             <div class="cookie-buttons">
@@ -128,8 +120,6 @@
             </div>
         </div>
     </div>
-
-  
 </section>
 
 </body>
