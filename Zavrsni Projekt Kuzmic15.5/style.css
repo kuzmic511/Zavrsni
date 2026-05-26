@@ -676,3 +676,41 @@ nav ul li a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* --- 11. tamna tema--- */
+body.dark-theme {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-theme section {
+    background-color: #121212 !important;
+    padding: 50px 20px;
+}
+
+body.dark-theme .card, 
+body.dark-theme .home-box, 
+body.dark-theme .series-card,
+body.dark-theme .split,
+body.dark-theme .split.reverse,
+body.dark-theme .gallery-item,
+body.dark-theme .gallery-box,
+body.dark-theme .gallery-box.reverse,
+body.dark-theme .video-card,
+body.dark-theme .video-box,
+body.dark-theme .video-box.reverse,
+body.dark-theme .fact-card,
+body.dark-theme .timeline-item .content,
+body.dark-theme .cta {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-theme .split .text p,
+body.dark-theme .gallery-box p,
+body.dark-theme .video-box p,
+body.dark-theme .timeline-item .content p {
+    color: #cccccc !important;
+}
